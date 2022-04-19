@@ -1,0 +1,593 @@
+
+body {
+    background-color:#eeeeee;
+    font-family: 'Roboto Slab', serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.headerPosition {
+    background-color:#eeeeee;
+    width: 100%;
+    height: 23vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo img{
+    width:120px;
+    filter:brightness(1.1);
+    mix-blend-mode: multiply;
+}
+.headerMenu {
+    width: 55%;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+* {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+
+li {
+list-style: none;
+display: inline-flex;
+padding: 0 1.4% 0 1.4%;
+align-items: center;
+transition: all 0.5s;
+}
+
+.fadeIn {
+    transition: all 1s;
+}
+
+li:hover {
+    font-size: 1.1rem;
+    border-style:solid;
+    border-width: 1px;
+    border-color: white;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight:bold;
+    display: inline-block;
+    padding-top: 1.5%;
+}
+
+h2 {
+    font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    text-align:left;
+    line-height: 1.25;
+    margin: 20% 50% 10% 5%;
+    display: inline-block;
+}
+
+
+iframe {
+    object-fit: contain;
+}
+
+
+.indexImg {
+    width: 80%;
+    height: 60%;
+    margin: 2% 3% 3% 3%;
+    border-radius: 50%;
+}
+
+.carrouselPosition {
+    max-height: 80%;
+    max-width: 100vh;
+    padding-top: 8%;
+
+}
+.previous-next {
+    margin-top: 50%;
+}
+
+iframe {
+    margin: 2% 5% 3% 5%;
+}
+
+h3 {
+    font-size: 1.8rem;
+    margin: 20% 2% 1% 2%;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin: 3% 2% 4% 3%;
+    display: inline-block;
+}
+
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight:400;
+    margin: 4% 2% 4% 2%;
+    text-align: justify;
+    
+}
+.gridContainer {
+    width: 100%;
+     height: 50vh;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 100% 50%;
+    margin-top: 5%;
+    justify-content: space-around;
+  }
+
+.itemOne {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #eeeeee;
+    width: 100%;
+    margin-left: 1%;
+}
+
+.itemTwo {
+    background-color: #eeeeee;
+    border-radius: 50%;
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.gridContainerIzq {
+    width: 100%;
+    height: 50vh;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 100% 50%;
+    margin-top: 5%;
+    row-gap: 1%;
+    justify-content: space-around;
+  }
+
+
+.mapaIndex {
+    object-fit: contain;
+    width: 76%;
+}
+
+.pagesImgForma {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.gridContainerHyc {
+    width: 100%;
+    height: 50vh;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 50% 50% 50%;
+    margin-top: 5%;
+    row-gap: 1%;
+    justify-content: space-evenly;
+  }
+
+.gridContainerIdioma {
+    width: 100%;
+    height: 50vh;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100% 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    justify-content: space-between;
+
+}
+
+.itemOneId {
+    background-color: #eeeeee;
+    width: 100%;
+    height: 100%;
+}
+
+.itemTwoId {
+    background-color: #eeeeee;
+    margin-top: 0;
+    width: 100%;
+}
+
+.contactoForm {
+    display: flex;
+    flex-flow:column;
+    width: 80%;
+    height: 100%;
+    margin: 1% 2% 1% 2%;
+    padding: 5%
+}
+
+.formPosition {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+legend {
+    font-size: 1.5rem;
+}
+
+label {
+    display: inline-block;
+    margin: 1% 0% 0% 1%;
+}
+input {
+    display: block;
+    margin: 1% 4% 2% 1%;
+}
+textarea {
+    margin-left: 1%;
+    margin-bottom: 2%;
+    width: 95%;
+}
+.formButton {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3% 2% 0% 25%;
+    padding: 1% 1% 1% 23%;
+    width: 50%;
+}
+
+
+@media screen and (max-width: 1035px) {
+    .headerLogo img {
+        width:110px; 
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .headerMenu {
+        width: 66%;
+        background-color: #eeeeee;
+    }
+
+    h2 {
+        font-size: 4rem;
+        margin: 27.5% 50% 10% 5%;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        margin: 25% 2% 1% 2%;
+    }
+    p {
+        font-size: 0.9rem; 
+    }
+
+    .carrouselPosition {
+        padding-top: 20%;
+    }
+ 
+    
+
+
+    .indexAsideTexto{
+        font-size: 2.5rem;
+        padding: 25% 5% 5% 7%;
+    }
+    .indexAsideNombre {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 810px) {
+
+    .headerPosition {
+        background-color:#eeeeee;
+        width: 100%;
+        height: 28vh;
+        position: fixed;
+        display: inline-block;
+        padding: 3% 3% 0 3%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headerMenu {
+        margin-top: 3%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 3.3rem;
+        margin: 30% 50% 10% 5%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin: 31% 2% 1% 2%;
+    }
+    h4 {
+        font-size: 1.4rem
+    }
+    p {
+        font-size: 0.8rem; 
+    }
+
+    .indexImg {
+        width: 60%;
+        height: 60%;
+        justify-content: end;
+    }
+
+    .indexAsideTexto{
+        font-size: 2rem;
+        padding: 25% 5% 5% 7%;
+    }
+    .indexAsideNombre {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .headerLogo img {
+        width:100px; 
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .headerMenu {
+        margin-top: 2%;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+    
+    .headerPosition {
+        background-color:#eeeeee;
+        width: 100%;
+        height: 25vh;
+        position: fixed;
+        display: inline-block;
+        padding: 3% 3% 0 3%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 3.3rem;
+        margin: 36% 50% 10% 5%;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin: 33% 2% 1% 2%;
+    }
+
+    h4 {
+        font-size: 1.3rem
+    }
+    p {
+        font-size: 0.8rem; 
+    }
+
+    .indexImg {
+        width: 60%;
+        height: 60%;
+        justify-content: end;
+    }
+
+    .indexAsideTexto{
+        font-size: 1.7rem;
+        padding: 25% 5% 5% 7%;
+    }
+    .indexAsideNombre {
+        font-size: 1.7rem;
+    }
+    table {
+        font-size: 0.8rem;
+    }
+    
+    input {
+        width: 80%;
+    }
+    legend {
+        font-size: 1.4rem;
+    }
+    textarea {
+        width: 80%;
+        margin-left:1%;
+    }
+    .formButton {
+        width: 40%;
+        padding: 0 0 0 15%;
+    }
+}
+
+@media screen and (max-width: 525px) {
+
+    .headerLogo img {
+        width:90px; 
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .headerMenu {
+        margin-top: 2%;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+
+    h2 {
+        margin: 45% 50% 10% 5%;
+    }
+
+    .indexAsideTexto{
+        font-size: 1.5rem;
+        padding: 25% 5% 5% 7%;
+    }
+    .indexAsideNombre {
+        font-size: 1.5rem;
+    }
+    table {
+        font-size: 0.8rem;
+    }
+
+    h3 {
+        margin-top: 40%;
+    }
+    h4 {
+        font-size: 1rem
+    }
+
+    p {
+        font-size: 0.7rem; 
+    }
+
+    input {
+        width: 77%;
+    }
+    legend {
+        font-size: 1.3rem;
+    }
+    textarea {
+        width: 80%;
+    }
+    .gridContainer {
+        display: block;
+        margin-bottom: 10%;
+    }
+    .gridContainerIzq {
+        display: block;
+        margin-top: 50%;
+        margin-bottom: 10%;
+    }
+    .gridContainerIdioma {
+        display: block;
+        margin-bottom: 50%;
+    
+    }
+    .pagesImgForma {
+        width: 90%;
+        height: 100%;
+        border-radius: 45%;
+    }
+    .formButton {
+        width: 30%;
+        padding: 0 0 0 8%;
+    }
+    table {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width: 422px) {
+    h2 {
+        margin-top: 50%;
+    }
+    h3 {
+        margin-top: 50%;
+    }
+    h4 {
+        font-size: 0.8rem
+    }
+    p {
+        font-size: 0.6rem; 
+    }
+    .gridContainer {
+        display: block;
+        margin-top: 10%;
+
+    }
+    .gridContainerIzq {
+        display: block;
+        margin-top: 40%;
+    }
+    
+    .indexImg {
+        width: 60%;
+        height: 60%;
+        justify-content: center;
+    }
+    .gridContainerIdioma {
+        display: block;
+        margin-bottom: 50%;
+        margin-top: 10%;
+    
+    }
+    .pagesImgForma {
+        width: 90%;
+        height: 100%;
+        border-radius: 45%;
+    }
+    .formButton {
+        width: 30%;
+        padding: 0 0 0 8%;
+    }
+    .indexAsideTexto{
+        font-size: 1.4rem;
+    }
+    .indexAsideNombre {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    h2 {
+        margin-top: 65%;
+    }
+
+    .headerMenu {
+        margin-top: 2.5%;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    h2 {
+        margin-top: 85%;
+    }
+
+    .headerMenu {
+        margin-top: 2.5%;
+        font-size: 0.7rem;
+    }
+}
