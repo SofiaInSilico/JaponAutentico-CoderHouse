@@ -26,25 +26,26 @@
     margin-top: 5%;
     justify-content: space-around;
   }
+  
+
+.item{
+    display: flex;
+    justify-items:center;
+    align-items:center;
+    background-color:$colorFondos;
+    }
 
 .itemOne {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    background-color: $colorFondos;
+    @extend.item;
     width: 100%;
     margin-left: 1%;
 }
 
 .itemTwo {
-    background-color: $colorFondos;
+    @extend.item;
     border-radius: 50%;
-    display: flex;
     margin-left: 0;
     padding-left: 0;
-    justify-items: center;
-    align-items: center;
-
 }
 
 .gridContainerIzq {
