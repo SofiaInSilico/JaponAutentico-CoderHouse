@@ -8,14 +8,6 @@ body {
     
 }
 
-$style:(
-    fuente:'Bebas Neue',
-    disp: inline-block,
-);
-        h1, h2 {
-        font-family: map-get ($style, fuente);
-        display: map-get($style, disp);
-        }
 
 * {
     list-style-type: none;
