@@ -63,11 +63,6 @@ h2 {
 }
 
 
-iframe {
-    object-fit: contain;
-    margin: 2% 5% 3% 5%;
-}
-
 h3 {
     font-size: 1.8rem;
     margin: 20% 2% 1% 2%;
@@ -88,6 +83,11 @@ p {
     margin: 4% 2% 4% 2%;
     text-align: justify;
     
+}
+
+iframe {
+    object-fit: contain;
+    margin: 2% 5% 3% 5%;
 }
 @mixin sizes ($width, $height){
     height:$height;
