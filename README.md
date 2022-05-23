@@ -1,7 +1,7 @@
 JAPÓN AUTÉNTICO
 
-Japón Auténtico es un sitio web creado con la finalidad de brindan información sobre Japón, su cultura e historia, idioma, y las diversas oportunidades que este país ofrece.
-El presente es un demo del mismo, actualmente en proceso de mejora
+Japón Auténtico es un sitio web creado con la finalidad de brindar información sobre Japón, su cultura e historia, idioma, y las diversas oportunidades que este país ofrece.
+El presente es el repositorio del demo del mismo, actualmente en proceso de mejora.
 
 
 
